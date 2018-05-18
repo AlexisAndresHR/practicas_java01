@@ -1,0 +1,40 @@
+
+public class DatosPrimitivosAAHR
+    {public static void main (String aahr[])
+        {byte byte_minimo = -128;
+        System.out.println("Valor minimo de byte: " + byte_minimo);
+
+        byte byte_maximo = 127;
+        System.out.println("Valor maximo de byte: " + byte_maximo);
+
+        short short_minimo = -32768;
+        System.out.println("Valor minimo de short: " + short_minimo);
+
+        short short_maximo = 32767;
+        System.out.println("Valor maximo de short: " + short_maximo);
+
+        int int_minimo = -2147483648;
+        System.out.println("Valor minimo de int: " + int_minimo);
+
+        int int_maximo = 2147483647;
+        System.out.println("Valor maximo de int: " + int_maximo);
+
+        long long_minimo = Long.MIN_VALUE;
+        System.out.println("Valor minimo de long: " + long_minimo);
+
+        long long_maximo = Long.MIN_VALUE;
+        System.out.println("Valor maximo de long: " + long_maximo);
+
+        float float_minimo = Float.MIN_VALUE;
+        System.out.println("Valor minimo de float: " + float_minimo);
+
+        float float_maximo = Float.MAX_VALUE;
+        System.out.println("Valor maximo de float: " + float_maximo);
+
+        double double_minimo = Double.MIN_VALUE;
+        System.out.println("Valor minimo de double: " + double_minimo);
+
+        double double_maximo = Double.MAX_VALUE;
+        System.out.println("Valor maximo de double: " + double_maximo);
+        }
+    }
